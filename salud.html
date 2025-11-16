@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Salud - Ejercicios</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Área de Salud</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="ambiente.html">Medio Ambiente</a>
+        <a href="astronomia.html">Astronomía</a>
+    </nav>
+
+<!--1. IF – Clasificación de presión arterial-->
+    <div class="card">
+        <h2>1. Clasificación de presión arterial</h2>
+        <input id="sis" type="number" placeholder="Sistólica">
+        <input id="dia" type="number" placeholder="Diastólica">
+        <button onclick="presion()">Calcular</button>
+        <p id="res1" class="resultado"></p>
+    </div>
+
+<!--2. FOR – Registrar temperatura de varios pacientes-->
+    <div class="card">
+        <h2>2. Promedio de temperatura</h2>
+        <input id="numPac" type="number" placeholder="Número de pacientes">
+        <button onclick="temperaturas()">Registrar</button>
+        <p id="res2" class="resultado"></p>
+    </div>
+
+<!--3. WHILE – Contar pacientes con fiebre-->
+    <div class="card">
+        <h2> 3. Contar pacientes con fiebre</h2>
+        <button onclick="fiebre()">Iniciar registro</button>
+        <p id="res3" class="resultado"></p>
+    </div>
+
+<!-- 4. SWITCH – Clasificación de TRIAGE -->
+<div class="card">
+  <h2>4. Clasificación de TRIAGE</h2>
+  <input id="tri" type="number" placeholder="Código 1-4">
+  <button onclick="triage()">Mostrar</button>
+  <p id="res4" class="resultado"></p>
+</div>
+
+<!--  5. DO WHILE – Repetir mediciones de saturación SpO2 -->
+<div class="card">
+  <h2>5. Registro de saturación</h2>
+  <button onclick="saturacion()">Iniciar mediciones</button>
+  <p id="res5" class="resultado"></p>
+</div>
+
+<script src="js/salud.js"></script>-->
+  </body>
+</html>

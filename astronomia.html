@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Astronomía - Ejercicios</title>
+  </head>
+  <body>
+    <h1>Área de Astronomía</h1>
+
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="salud.html">Salud</a>
+      <a href="ambiente.html">Medio Ambiente</a>
+    </nav>
+
+<!--1. IF – Clasificación de brillo estelar (magnitud)-->
+    <div class="card">
+      <h2>1. Brillo estelar</h2>
+      <input id="mag" type="number" placeholder="Magnitud" />
+      <button onclick="brillo()">Clasificar</button>
+      <p id="as1" class="resultado"></p>
+    </div>
+
+<!--2. FOR – Registrar distancias de planetas-->
+    <div class="card">
+      <h2>2. Distancias planetarias</h2>
+      <input id="numD" type="number" placeholder="Número de planetas" />
+      <button onclick="distancias()">Registrar</button>
+      <p id="as2" class="resultado"></p>
+    </div>
+
+<!--3. WHILE – Contar cráteres lunares grandes-->
+    <div class="card">
+      <h2>3. Cráteres lunares</h2>
+      <button onclick="crateres()">Contar</button>
+      <p id="as3" class="resultado"></p>
+    </div>
+
+<!--4. SWITCH – Identificar cuerpo celeste-->
+    <div class="card">
+      <h2>4. Cuerpo celeste</h2>
+      <input id="codC" type="number" placeholder="Código 1-5" />
+      <button onclick="cuerpo()">Identificar</button>
+      <p id="as4" class="resultado"></p>
+    </div>
+
+<!--5. DO WHILE – Registro de niveles de luz (lux)-->
+    <div class="card">
+      <h2>5. Niveles de luz</h2>
+      <button onclick="luz()">Medir</button>
+      <p id="as5" class="resultado"></p>
+    </div>
+
+    <script src="js/astronomia.js"></script>
+  </body>
+</html>

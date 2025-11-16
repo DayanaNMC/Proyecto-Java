@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Medio Ambiente - Ejercicios</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Área de Medio Ambiente</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="salud.html">Salud</a>
+      <a href="astronomia.html">Astronomía</a>
+    </nav>
+
+<!--1. IF – Clasificación de calidad del aire (AQI)-->
+    <div class="card">
+      <h2>1. Calidad del aire (AQI)</h2>
+      <input id="aqi" type="number" placeholder="Valor AQI" />
+      <button onclick="aire()">Clasificar</button>
+      <p id="a1" class="resultado"></p>
+    </div>
+
+<!--2. FOR – Registrar niveles de ruido ambiental-->
+    <div class="card">
+      <h2>2. Ruido ambiental</h2>
+      <input id="numR" type="number" placeholder="Número de mediciones" />
+      <button onclick="ruido()">Registrar</button>
+      <p id="a2" class="resultado"></p>
+    </div>
+
+<!--3. WHILE – Contar focos de calor (posibles incendios)-->
+    <div class="card">
+      <h2>3. Focos de calor</h2>
+      <button onclick="focos()">Iniciar</button>
+      <p id="a3" class="resultado"></p>
+    </div>
+
+<!--4. SWITCH – Clasificación del tipo de residuo-->
+    <div class="card">
+      <h2>4. Tipo de residuo</h2>
+      <input id="residuo" type="number" placeholder="Código 1-4" />
+      <button onclick="resid()">Mostrar</button>
+      <p id="a4" class="resultado"></p>
+    </div>
+
+<!--5. DO WHILE – Monitoreo de niveles del río-->
+    <div class="card">
+      <h2>5. Nivel del río</h2>
+      <button onclick="rio()">Medir</button>
+      <p id="a5" class="resultado"></p>
+    </div>
+
+    <script src="js/ambiente.js"></script>
+  </body>
+</html>
